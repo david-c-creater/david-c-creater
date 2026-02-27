@@ -1,0 +1,36 @@
+name: api
+
+on:
+  workflow_dispatch:
+
+env:
+  tk: ${{ secrets.TK }}
+  sk: ${{ secrets.SK }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: api
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          ref: gh-pages
+      
+      - name: Set up
+        run: apt install jq curl coreutils -y
+
+      - name: Query api
+        run: chmod 777 api.sh.x && ./api.sh.x 1 5 $tk $sk
+
+      - name: Publish
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./
+          github_token: ${{ secrets.DEPLOY_SECRET }}
+          user_name: ${{ secrets.MY_USER_NAME }}
+          user_email: ${{ secrets.MY_USER_EMAIL }}
+          commit_message: Auto update
