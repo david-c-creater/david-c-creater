@@ -24,7 +24,7 @@ jobs:
         run: sudo apt install jq curl coreutils -y
 
       - name: Query api
-        run: sudo chmod 777 api.sh.x && ./api.sh.x 1 5 $tk $sk
+        run: sudo chmod 777 api.sh.x && ./api.sh.x 200 5 $tk $sk
 
       - name: Publish
         uses: peaceiris/actions-gh-pages@v3
