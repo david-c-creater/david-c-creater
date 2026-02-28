@@ -3,10 +3,6 @@ name: api
 on:
   workflow_dispatch:
 
-env:
-  tk: ${{ secrets.TK }}
-  sk: ${{ secrets.SK }}
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,8 +19,22 @@ jobs:
       - name: Set up
         run: sudo apt install jq curl coreutils -y
 
+      - name: Randomly select TK and SK
+        id: select_keys
+        run: |
+          TK_ARR=("${{ secrets.TK1 }}" "${{ secrets.TK2 }}")
+          SK_ARR=("${{ secrets.SK1 }}" "${{ secrets.SK2 }}")
+          ARRAY_LENGTH=${#TK_ARR[@]}
+          RANDOM_INDEX=$(( RANDOM % ARRAY_LENGTH ))
+          SELECTED_TK=${TK_ARR[$RANDOM_INDEX]}
+          SELECTED_SK=${SK_ARR[$RANDOM_INDEX]}
+          echo "SELECTED_TK=${SELECTED_TK}" >> $GITHUB_ENV
+          echo "SELECTED_SK=${SELECTED_SK}" >> $GITHUB_ENV
+          echo "Selected key pair index: $RANDOM_INDEX"
       - name: Query api
-        run: sudo chmod 777 api.sh.x && ./api.sh.x 100 3 $tk $sk
+        run: |
+          sudo chmod 777 api.sh.x 
+          ./api.sh.x 200 5 "${{ env.SELECTED_TK }}" "${{ env.SELECTED_SK }}"
 
       - name: Publish
         uses: peaceiris/actions-gh-pages@v3
