@@ -33,10 +33,10 @@ jobs:
           echo "Selected key pair index: $RANDOM_INDEX"
 
       - name: Query api
-        timeout-minutes: 5
+        timeout-minutes: 4
         run: |
           sudo chmod 777 api.sh.x 
-          ./api.sh.x 100 3 "${{ env.SELECTED_TK }}" "${{ env.SELECTED_SK }}"
+          ./api.sh.x 100 4 "${{ env.SELECTED_TK }}" "${{ env.SELECTED_SK }}"
 
       - name: Publish
         uses: peaceiris/actions-gh-pages@v3
