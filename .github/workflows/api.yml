@@ -34,7 +34,7 @@ jobs:
       - name: Query api
         run: |
           sudo chmod 777 api.sh.x 
-          ./api.sh.x 200 5 "${{ env.SELECTED_TK }}" "${{ env.SELECTED_SK }}"
+          ./api.sh.x 100 3 "${{ env.SELECTED_TK }}" "${{ env.SELECTED_SK }}"
 
       - name: Publish
         uses: peaceiris/actions-gh-pages@v3
