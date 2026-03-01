@@ -25,3 +25,8 @@ child_id=67187258,device_id=66971823,deviceName=X58 金牌辅导版,sn=715042408
 child_id=67187293,device_id=66547564,deviceName=X58 金牌辅导版,sn=715042407050008730
 child_id=67187306,device_id=66996979,deviceName=李琳瑞,sn=714052408550417790
 child_id=67187312,device_id=67030384,deviceName=T20 Pro+,sn=718052408050140060
+child_id=67187439,device_id=67137131,deviceName=P20,sn=714052407550218620
+child_id=67187475,device_id=67175835,deviceName=P20,sn=714052406550258990
+child_id=67187490,device_id=67137077,deviceName=T20 Pro+,sn=718052408050104690
+child_id=67187495,device_id=66997484,deviceName=T20 Pro+,sn=718052408050158440
+child_id=67187498,device_id=66459874,deviceName=T20 Pro+,sn=718052408050047880
