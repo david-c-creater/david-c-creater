@@ -22,8 +22,8 @@ jobs:
       - name: Randomly select TK and SK
         id: select_keys
         run: |
-          TK_ARR=("${{ secrets.TK1 }}" "${{ secrets.TK2 }}")
-          SK_ARR=("${{ secrets.SK1 }}" "${{ secrets.SK2 }}")
+          TK_ARR=("${{ secrets.TK1 }}" "${{ secrets.TK2 }}" "${{ secrets.TK3 }}" "${{ secrets.TK4 }}" "${{ secrets.TK5 }}")
+          SK_ARR=("${{ secrets.SK1 }}" "${{ secrets.SK2 }}" "${{ secrets.SK3 }}" "${{ secrets.SK4 }}" "${{ secrets.SK5 }}")
           ARRAY_LENGTH=${#TK_ARR[@]}
           RANDOM_INDEX=$(( RANDOM % ARRAY_LENGTH ))
           SELECTED_TK=${TK_ARR[$RANDOM_INDEX]}
