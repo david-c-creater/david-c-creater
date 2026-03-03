@@ -272,3 +272,15 @@ child_id=67191170,device_id=67098474,deviceName=X58 金牌辅导版,sn=715042408
 child_id=67191172,device_id=67098471,deviceName=辅导机2 4G博学版,sn=506012407570004430
 child_id=67191195,device_id=67321571,deviceName=T20 Pro+,sn=718052408050124130
 child_id=67191194,device_id=67321713,deviceName=T20 Pro+,sn=718052408050156720
+child_id=67191202,device_id=67019776,deviceName=T20 Pro+,sn=718052408050012360
+child_id=67191203,device_id=67117680,deviceName=T20 Pro+,sn=718052408050000980
+child_id=67191205,device_id=67098516,deviceName=T20 Pro+,sn=718052408050069330
+child_id=67191206,device_id=67232642,deviceName=X58 金牌辅导版,sn=715042407050029710
+child_id=67191210,device_id=66666814,deviceName=T20 Pro+,sn=718052407050158380
+child_id=67191250,device_id=67211167,deviceName=T20 Pro+,sn=718052408050148420
+child_id=67191261,device_id=67019827,deviceName=辅导机2 4G博学版,sn=506012407570008770
+child_id=67191266,device_id=67117925,deviceName=辅导机2 4G博学版,sn=506012407570013230
+child_id=67191271,device_id=67019837,deviceName=T20 Pro+,sn=718052408050162960
+child_id=67191291,device_id=67232698,deviceName=P20,sn=714052407550457720
+child_id=67191294,device_id=62438462,deviceName=X20,sn=707052403050028790
+child_id=67191300,device_id=67382624,deviceName=T20 Pro+,sn=718052408050198560
