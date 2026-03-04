@@ -339,3 +339,11 @@ child_id=67191856,device_id=67233771,deviceName=X58 金牌辅导版,sn=715042407
 child_id=67191858,device_id=67342372,deviceName=辅导机2 4G博学版,sn=506012407570019380
 child_id=67191882,device_id=67212470,deviceName=T20 Pro+,sn=718052408050123130
 child_id=67191893,device_id=67242002,deviceName=辅导机2 4G博学版,sn=506012407570014950
+child_id=67191902,device_id=67322496,deviceName=P20,sn=714052407550486830
+child_id=67191908,device_id=67342425,deviceName=T20 Pro+,sn=718052408050183740
+child_id=67191910,device_id=67322474,deviceName=T20 Pro+,sn=718052408050104700
+child_id=67191914,device_id=67242067,deviceName=辅导机2 4G博学版,sn=506012407570013020
+child_id=67191955,device_id=67242178,deviceName=T20 Pro+,sn=718052408050173010
+child_id=67191964,device_id=67342477,deviceName=T20 Pro+,sn=718052408050110570
+child_id=67191985,device_id=67037284,deviceName=辅导机2 4G博学版,sn=506012407570006590
+child_id=67191995,device_id=67383709,deviceName=T20 Pro+,sn=718052408050147100
