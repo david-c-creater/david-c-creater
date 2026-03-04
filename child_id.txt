@@ -307,3 +307,11 @@ child_id=67191485,device_id=67036626,deviceName=X58 金牌辅导版,sn=715042405
 child_id=67191489,device_id=67381864,deviceName=T20 Pro+,sn=718052408050126110
 child_id=67191492,device_id=67280380,deviceName=辅导机2 4G博学版,sn=506012407570015080
 child_id=67191499,device_id=66976846,deviceName=T20 Pro+,sn=718052407050145540
+child_id=67191504,device_id=66293371,deviceName=T20 Pro+,sn=718052407050124470
+child_id=67191501,device_id=66976845,deviceName=T20 Pro+,sn=718052408050115800
+child_id=67191507,device_id=67280453,deviceName=X58 金牌辅导版,sn=715042407050025090
+child_id=67191509,device_id=67150042,deviceName=T20 Pro+,sn=718052408050197610
+child_id=67191538,device_id=67322155,deviceName=P20,sn=714052407550451710
+child_id=67191573,device_id=67191570,deviceName=T20 Pro+,sn=718052408050183700
+child_id=67191580,device_id=67191572,deviceName=辅导机2 4G博学版,sn=506012407570013070
+child_id=67191600,device_id=67342110,deviceName=T20,sn=710052407050003861
