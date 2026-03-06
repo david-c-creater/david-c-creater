@@ -401,3 +401,5 @@ child_id=67193032,device_id=66997651,deviceName=X58 金牌辅导版,sn=715042407
 child_id=67193074,device_id=67039274,deviceName=T20 Pro+,sn=718052408050128410
 child_id=67193077,device_id=67282268,deviceName=P20,sn=716052407550046420
 child_id=67193090,device_id=67236071,deviceName=P20,sn=713052408550004400
+child_id=67193145,device_id=67098810,deviceName=T20 Pro+,sn=718052408050122430
+child_id=67193168,device_id=67421217,deviceName=T20 Pro+,sn=718052408050174950
