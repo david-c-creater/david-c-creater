@@ -475,3 +475,6 @@ child_id=67194535,device_id=67153721,deviceName=P20,sn=714052407550238960
 child_id=67194553,device_id=66576344,deviceName=T20 Pro+,sn=718052407050188690
 child_id=67194570,device_id=67244689,deviceName=T20 Pro+,sn=718052408050175870
 child_id=67194593,device_id=67345368,deviceName=T28 金牌辅导版,sn=719052407050009371
+child_id=67194823,device_id=67142539,deviceName=T20 Pro+,sn=718052408050144360
+child_id=67194840,device_id=67150830,deviceName=T20 Pro+,sn=718052408050172980
+child_id=67194900,device_id=67194839,deviceName=辅导机2 4G博学版,sn=506012407570015920
