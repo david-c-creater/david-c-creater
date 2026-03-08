@@ -557,3 +557,12 @@ child_id=67195785,device_id=67285236,deviceName=辅导机2 4G博学版,sn=506012
 child_id=67195782,device_id=67195768,deviceName=T20 Pro+,sn=718052408050184920
 child_id=67195794,device_id=67401653,deviceName=辅导机2 4G博学版,sn=506012407570010440
 child_id=67195798,device_id=67346850,deviceName=P20,sn=713052406150054550
+child_id=67195810,device_id=101769429,deviceName=P30,sn=730052504550000851
+child_id=67195813,device_id=67327236,deviceName=T20 Pro+,sn=718052408050138800
+child_id=67195823,device_id=67346869,deviceName=T20 Pro+,sn=718052408050154910
+child_id=67195835,device_id=67425106,deviceName=辅导机2 4G博学版,sn=506012407570016620
+child_id=67195844,device_id=67388412,deviceName=P20,sn=716052407550017670
+child_id=67195855,device_id=66967397,deviceName=T20 Pro+,sn=718052408050096340
+child_id=67195864,device_id=67302819,deviceName=辅导机2 4G博学版,sn=506012407570014620
+child_id=67195868,device_id=67346894,deviceName=P20,sn=714052407580119520
+child_id=67195893,device_id=67302833,deviceName=X58 金牌辅导版,sn=715042408050067620
