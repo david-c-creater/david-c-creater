@@ -500,3 +500,10 @@ child_id=67195169,device_id=67195163,deviceName=T20 Pro+,sn=718052408050091900
 child_id=67195184,device_id=67346204,deviceName=X58 金牌辅导版,sn=715042407050014840
 child_id=67195196,device_id=66979961,deviceName=T28 金牌辅导版,sn=719052407050003920
 child_id=67195198,device_id=66979961,deviceName=T28 金牌辅导版,sn=719052407050003920
+child_id=67195206,device_id=68403893,deviceName=T20 Pro+,sn=718052408050463940
+child_id=67195202,device_id=67387715,deviceName=P20,sn=714052408550027641
+child_id=67195211,device_id=67195197,deviceName=辅导机2 4G博学版,sn=506012407570018180
+child_id=67195217,device_id=67363258,deviceName=T20 Pro+,sn=718052407050170740
+child_id=67195282,device_id=67284316,deviceName=X58 金牌辅导版,sn=715042407050031550
+child_id=67195285,device_id=20897452,deviceName=T20 Pro+,sn=704052307050163040
+child_id=67195296,device_id=86868454,deviceName=T20 Pro+,sn=704052412050004941
