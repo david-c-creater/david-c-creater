@@ -611,3 +611,5 @@ child_id=67197278,device_id=67390550,deviceName=T20 Pro+,sn=718052408050231920
 child_id=67197288,device_id=67390555,deviceName=辅导机2 4G博学版,sn=506012407570016860
 child_id=67197289,device_id=67239923,deviceName=T20 Pro+,sn=718052408050267940
 child_id=67197296,device_id=67304933,deviceName=P20,sn=714052407550461170
+child_id=67197302,device_id=67390565,deviceName=辅导机2 4G博学版,sn=506012407570002220
+child_id=67197327,device_id=67348505,deviceName=T20 Pro+,sn=718052408050250650
