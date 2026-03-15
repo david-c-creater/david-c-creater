@@ -600,3 +600,6 @@ child_id=67196719,device_id=67363965,deviceName=辅导机2 4G博学版,sn=506012
 child_id=67196925,device_id=67364249,deviceName=P20,sn=714052407550451450
 child_id=67197014,device_id=67156341,deviceName=X28 金牌辅导版,sn=709052406050037460
 child_id=67197024,device_id=16437541,deviceName=,sn=704052305050013750
+child_id=67197105,device_id=67527630,deviceName=T20 Pro+,sn=718052408050300050
+child_id=67197136,device_id=67072560,deviceName=T20 Pro+,sn=718052408050164620
+child_id=67197157,device_id=66965718,deviceName=P20,sn=713052407550097620
