@@ -653,3 +653,4 @@ child_id=67198218,device_id=67349485,deviceName=辅导机2 4G博学版,sn=506012
 child_id=67198254,device_id=67403444,deviceName=T20 Pro+,sn=718052408050148730
 child_id=67198295,device_id=67202978,deviceName=T20 Pro+-4,sn=718052408050111460
 child_id=67198298,device_id=87305679,deviceName=T20-1,sn=705052410050001781
+child_id=67198312,device_id=67248276,deviceName=T20 Pro+,sn=718052408050108410
