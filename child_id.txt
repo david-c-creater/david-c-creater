@@ -753,3 +753,4 @@ child_id=67199595,device_id=67288336,deviceName=T20 Pro+,sn=718052408050161950
 child_id=67199605,device_id=67392694,deviceName=辅导机2 4G博学版,sn=506012407570020240
 child_id=67199616,device_id=67249115,deviceName=T20 Pro+,sn=718052408050093120
 child_id=67199657,device_id=67661394,deviceName=P20,sn=714052407550380600
+child_id=67199722,device_id=67288369,deviceName=辅导机2 4G博学版,sn=506012407570017730
