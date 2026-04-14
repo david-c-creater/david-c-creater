@@ -962,3 +962,8 @@ child_id=67202814,device_id=67223769,deviceName=X28 金牌辅导版,sn=721052405
 child_id=67202821,device_id=42562238,deviceName=T20 Pro+,sn=704052312050005771
 child_id=67202828,device_id=67142530,deviceName=T20 Pro+,sn=718052408050125330
 child_id=67202852,device_id=67132974,deviceName=P20,sn=714052407580042110
+child_id=67202962,device_id=67142080,deviceName=T20 Pro+,sn=718052408050006600
+child_id=67202967,device_id=62378043,deviceName=T20 Pro+,sn=718052406050085090
+child_id=67202983,device_id=67223822,deviceName=X58 金牌辅导版,sn=715042407050027360
+child_id=67202987,device_id=67202969,deviceName=T20 Pro+,sn=718052408050124880
+child_id=67202996,device_id=67133039,deviceName=X58 金牌辅导版,sn=715042405050011630
