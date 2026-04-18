@@ -1319,3 +1319,4 @@ child_id=67209899,device_id=66934059,deviceName=X58 金牌辅导版,sn=715042407
 child_id=67209991,device_id=67034233,deviceName=X58 金牌辅导版,sn=715042408050011860
 child_id=67210014,device_id=67190275,deviceName=P20,sn=714052408550418370
 child_id=67210038,device_id=67209954,deviceName=P20-1,sn=714052407580103730
+child_id=67210222,device_id=67097259,deviceName=T20 Pro+,sn=718052408050148090
