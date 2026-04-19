@@ -1334,3 +1334,7 @@ child_id=67210566,device_id=67229751,deviceName=X28 金牌辅导版,sn=709052401
 child_id=67210579,device_id=67034248,deviceName=P20,sn=714052407550452930
 child_id=67210585,device_id=67321017,deviceName=T20 Pro+,sn=718052408050147740
 child_id=67210592,device_id=67381932,deviceName=T20 Pro+,sn=718052408050084470
+child_id=67210611,device_id=67148811,deviceName=T20 Pro+,sn=718052408050144660
+child_id=67210609,device_id=67034801,deviceName=P20,sn=714052407550451920
+child_id=67210636,device_id=67210578,deviceName=T20 Pro+,sn=718052408050139620
+child_id=67210657,device_id=67077818,deviceName=T20 Pro+,sn=718052408050176130
