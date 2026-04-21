@@ -1498,3 +1498,6 @@ child_id=67213403,device_id=67360819,deviceName=X58 金牌辅导版,sn=715042408
 child_id=67213413,device_id=67300089,deviceName=P20-4,sn=714052407550433170
 child_id=67213418,device_id=67324004,deviceName=辅导机2 4G博学版,sn=506012407570009500
 child_id=67213468,device_id=67152826,deviceName=T20 Pro+,sn=718052408050038890
+child_id=67213521,device_id=67385372,deviceName=T20 Pro+-6,sn=718052407050188840
+child_id=67213589,device_id=66978800,deviceName=P20,sn=713052408550021540
+child_id=67213594,device_id=67039565,deviceName=T20 Pro+,sn=718052408050173190
