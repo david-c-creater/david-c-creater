@@ -1741,3 +1741,11 @@ child_id=67218056,device_id=67482119,deviceName=X58 金牌辅导版,sn=715042408
 child_id=67218078,device_id=67157893,deviceName=T20 Pro+,sn=718052408050186310
 child_id=67218143,device_id=67365755,deviceName=辅导机2 4G博学版,sn=506012407570004870
 child_id=67218184,device_id=67400777,deviceName=T20 Pro+,sn=718052408050175580
+child_id=67218210,device_id=67306665,deviceName=T20 Pro+,sn=718052408050162100
+child_id=67218227,device_id=67365749,deviceName=T20 Pro+,sn=718052408050186250
+child_id=67218233,device_id=67287635,deviceName=P20,sn=713052406550045040
+child_id=67218238,device_id=67218236,deviceName=T20 Pro+-3,sn=718052408050211650
+child_id=67218240,device_id=67329300,deviceName=P20,sn=714052407550459860
+child_id=67218250,device_id=67365785,deviceName=X28 金牌辅导版,sn=709052406050002770
+child_id=67218274,device_id=67262872,deviceName=T20 Pro+,sn=718052408050175270
+child_id=67218294,device_id=68837017,deviceName=T20 Pro+,sn=718052408050588380
