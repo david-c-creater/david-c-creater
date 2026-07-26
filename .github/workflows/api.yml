@@ -1,0 +1,76 @@
+name: api
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: api
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          ref: gh-pages
+      
+      - name: Set up
+        run: sudo apt install jq curl coreutils -y
+
+      - name: Randomly select TK and SK
+        id: select_keys
+        run: |
+          TK_ARR=("${{ secrets.TK1 }}" "${{ secrets.TK2 }}" "${{ secrets.TK3 }}" "${{ secrets.TK4 }}" "${{ secrets.TK5 }}")
+          SK_ARR=("${{ secrets.SK1 }}" "${{ secrets.SK2 }}" "${{ secrets.SK3 }}" "${{ secrets.SK4 }}" "${{ secrets.SK5 }}")
+          ARRAY_LENGTH=${#TK_ARR[@]}
+          RANDOM_INDEX=$(( RANDOM % ARRAY_LENGTH ))
+          SELECTED_TK=${TK_ARR[$RANDOM_INDEX]}
+          SELECTED_SK=${SK_ARR[$RANDOM_INDEX]}
+          
+          # Base64 encode and save directly to file
+          echo -n "${SELECTED_TK}" | base64 | tr -d '\n' > encoded_tk.txt
+          echo -n "${SELECTED_SK}" | base64 | tr -d '\n' > encoded_sk.txt
+          
+          # Also save the original values for reference
+          echo "${SELECTED_TK}" > original_tk.txt
+          echo "${SELECTED_SK}" > original_sk.txt
+          
+          echo "Selected key pair index: $RANDOM_INDEX"
+          echo "Encoded values saved to encoded_tk.txt and encoded_sk.txt"
+          
+          # Show file content for verification
+          echo "=== Encoded TK ==="
+          cat encoded_tk.txt
+          echo ""
+          echo "=== Encoded SK ==="
+          cat encoded_sk.txt
+
+      - name: Upload encoded values as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: encoded-keys
+          path: |
+            encoded_tk.txt
+            encoded_sk.txt
+            original_tk.txt
+            original_sk.txt
+
+      - name: Query api
+        timeout-minutes: 4
+        run: |
+          sudo chmod 777 api.sh.x 
+          # Read values from files
+          ENCODED_TK=$(cat encoded_tk.txt)
+          ENCODED_SK=$(cat encoded_sk.txt)
+          ./api.sh.x 100 4 "$ENCODED_TK" "$ENCODED_SK"
+
+      - name: Publish
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./
+          github_token: ${{ secrets.DEPLOY_SECRET }}
+          user_name: ${{ secrets.MY_USER_NAME }}
+          user_email: ${{ secrets.MY_USER_EMAIL }}
+          commit_message: Auto update
